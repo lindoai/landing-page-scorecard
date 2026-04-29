@@ -31,6 +31,13 @@ npm run deploy
 - `TURNSTILE_SITE_KEY`
 - `TURNSTILE_SECRET_KEY`
 
+Set them with:
+
+```bash
+printf '%s' "$TURNSTILE_SITE_KEY" | npx wrangler secret put TURNSTILE_SITE_KEY
+printf '%s' "$TURNSTILE_SECRET_KEY" | npx wrangler secret put TURNSTILE_SECRET_KEY
+```
+
 ## API
 
 ### GET `/api/score?url=https://example.com`

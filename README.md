@@ -4,11 +4,7 @@ Score a public landing page across messaging, trust, CTA density, offer visibili
 
 ## Deploy to Cloudflare
 
-Replace `https://github.com/lindoai/landing-page-scorecard` with the final public repo URL when this tool is split into its own repository.
-
-```md
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/lindoai/landing-page-scorecard)
-```
 
 ## Features
 
